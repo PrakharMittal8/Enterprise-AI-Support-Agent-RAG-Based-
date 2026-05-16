@@ -20,7 +20,9 @@ The project uses:
 
 ---
 * * 
-# Extract models.zip before running the project.
+# Before running the project, download the MiniLM embedding model manually.
+Refer "MiniLM Model Setup" section below.
+
 * * 
 ---
 
@@ -42,7 +44,7 @@ ai-enterprise-support-agent/
 │   ├── data/
 │   │   └── company_policy.txt
 │
-├── models/              [UNZIP IT]
+├── models/              
 │   └── minilm/
 │
 ├── vector_store/
@@ -215,7 +217,7 @@ Example:
 
 ```env
 OPENAI_API_KEY=your_key
-OPENAI_MODEL=gpt-4o-mini
+OPENAI_MODEL=anthropic.claude-3-haiku-20240307-v1:0
 ```
 
 ---
@@ -243,6 +245,34 @@ OpenAI Response Generation
 ---
 
 # Steps to Run the Project
+
+**----**
+## MiniLM Model Setup
+
+**This project uses the embedding model:**
+
+**sentence-transformers/all-MiniLM-L6-v2**
+
+**Download the model from:**
+**https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2**
+
+**After downloading, place the extracted model inside:**
+
+**models/minilm/**
+
+**Expected structure:**
+
+models/
+   minilm/
+      1_Pooling/
+      config.json
+      model.safetensors
+      modules.json
+      sentence_bert_config.json
+      tokenizer.json
+      tokenizer_config.json
+      vocab.txt
+**----**
 
 ## 1. Create Virtual Environment
 
