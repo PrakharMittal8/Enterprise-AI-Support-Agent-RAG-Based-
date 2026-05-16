@@ -246,21 +246,20 @@ OpenAI Response Generation
 
 # Steps to Run the Project
 
-**----**
 ## MiniLM Model Setup
 
-**This project uses the embedding model:**
+This project uses the embedding model:
 
-**sentence-transformers/all-MiniLM-L6-v2**
+sentence-transformers/all-MiniLM-L6-v2
 
-**Download the model from:**
-**https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2**
+Download the model from:
+https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 
-**After downloading, place the extracted model inside:**
+After downloading, place the extracted model inside:
 
-**models/minilm/**
+models/minilm/
 
-**Expected structure:**
+Expected structure:
 
 models/
    minilm/
@@ -272,8 +271,6 @@ models/
       tokenizer.json
       tokenizer_config.json
       vocab.txt
-
-
 
 
 ## 1. Create Virtual Environment
