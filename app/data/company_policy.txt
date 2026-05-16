@@ -1,0 +1,21 @@
+RETURN POLICY
+
+Customers can return products within 10 days of delivery.
+
+Refunds are processed within 5 business days after successful pickup verification.
+
+If pickup status is disputed, escalation to logistics team is required.
+
+Customers reporting fraud concerns should receive high-priority handling.
+
+Repeated delivery failures qualify for compensation coupons.
+
+Premium customers receive priority support response within 2 hours.
+
+Damaged product complaints require image verification before refund approval.
+
+Refunds above 500 INR require manager approval.
+
+Orders marked as "Delivered" but disputed by customer require investigation.
+
+Technical product issues are routed to technical support team.
